@@ -1,0 +1,2 @@
+Customer ID,License ID,Content Start Date,Content End Date,License Valid From,License Valid To,Order Number,Product ID,Source System,License Description,Transaction ID,License Type,License Status,Grace Period,License Policy,Tokens,License Comments,Concurrency Privilege ID,Max Concurrent Users
+TESTSOC332019,testsublic2349019,12/10/2014 13:20,12/10/2018 13:20,12/10/2014 13:20,12/10/2018 13:20,orderno126-d1,testpid456,Migration,License22 Desc,Trans1,Subscription,Active,90,No Policy,1,License1 Comments,EAL,10

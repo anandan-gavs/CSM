@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51182" started-at="2019-10-09T09:44:26Z" finished-at="2019-10-09T09:45:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51182" started-at="2019-10-09T09:44:26Z" finished-at="2019-10-09T09:45:17Z">
+      <class name="TestScripts.FillTimeSheet">
+        <test-method status="PASS" signature="submitTimeSheet()[pri:0, instance:TestScripts.FillTimeSheet@6fd02e5]" name="submitTimeSheet" duration-ms="51083" started-at="2019-10-09T15:14:26Z" finished-at="2019-10-09T15:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTimeSheet -->
+      </class> <!-- TestScripts.FillTimeSheet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

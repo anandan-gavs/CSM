@@ -1,0 +1,2 @@
+::java -jar selenium-server-standalone-2.53.1.jar -role wd -port 6666 -hub http://localhost:4444/grid/register -browser browserName=ie,maxInstances=2 -Dwebdriver.ie.driver=IEDriverServer.exe
+java -jar selenium-server-standalone-2.53.1.jar -role wd -port 6667 -hub http://localhost:4444/grid/register -browser browserName=ie,maxInstances=2 -Dwebdriver.ie.driver=IEDriverServer.exe

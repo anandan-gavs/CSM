@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PREMIER_AUTOMATION" parallel="tests" thread-count="1">
+
+        <test verbose="2" name="Windows_10">
+        <parameter name="platform" value="Windows"/>
+        <parameter name="browserName" value="CHROME"/>
+        <parameter name="remoteurl" value="http://10.0.05.136:6666/"/>
+        <!--<parameter name="url" value="http://c3dihcidevweb1:9091/"/>-->
+            <!--<parameter name="url" value="http://s2qiinsweb1.qains.premierinc.com:9092/"/>-->
+            <parameter name="url" value="http://www.google.com/"/>
+            <classes>
+
+            <class name="intialize.Prerequsite"/>
+
+            <!-- Running In Suite-->
+
+                <!--QA Automation: Verify the Net Revenue totals-->
+
+                <class name="FillTimeSheet"/>
+                <!--<class name="testscripts.Budget.Budget_68_DisplayAll_2016_Information"/>-->
+                <!--<class name="testscripts.Budget.Budget_69_Filter_Functionality"/>-->
+                <!--<class name="testscripts.Budget.Budget_110_View_User1_IncomeStatement"/>-->
+                <!--<class name="testscripts.Budget.Budget_110_View_User2_IncomeStatement"/>-->
+                <!--<class name="testscripts.Budget.Budget_110_View_User3_IncomeStatement"/>-->
+                <!--<class name="testscripts.Budget.Budget_111_View_Revenue_Expense_Org"/>-->
+                <!--<class name="testscripts.Budget.Budget_137_User1_AddDelete_Hierarchy_Level"/>-->
+                <!--<class name="testscripts.Budget.Budget_137_User2_AddDelete_Hierarchy_Level"/>-->
+                <!--<class name="testscripts.Budget.Budget_137_User3_AddDelete_Hierarchy_Level"/>-->
+                <!--<class name="testscripts.Budget.Budget_177_AddNewElementsWithinLevels"/>-->
+                <!--<class name="testscripts.Budget.Budget_222_EndToEndTestScenarios"/>-->
+                <!--<class name="testscripts.Budget.Budget_222_EditTestScenarios"/>-->
+                <!--<class name="testscripts.Budget.Budget_223_VerifyHierarchyRelationship"/>-->//Not a valid Test case
+                <!--<class name="testscripts.Budget.Budget_223_VerifyAssignUnassignAndBackfunc"/>would be cover 250 func-->
+                <!--<class name="testscripts.Budget.Budget_250_AssignRelationshipAdditionalFeature"/>-->
+
+        </classes>
+    </test>
+</suite>
+
+
+
